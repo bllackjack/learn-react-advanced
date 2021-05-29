@@ -4,6 +4,8 @@
   "description": "Since, I've been working with react a lot lately, this repository is going to handle a lot of things that I want to learn, and hence, further can be implemented to a project when needed.",
   "main": "index.js",
   "scripts": {
+    "dev": "npx webpack serve --mode=development",
+    "build": "npx webpack --mode=development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +26,7 @@
     "@babel/preset-react": "^7.13.13",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
+    "react-hot-loader": "^4.13.0",
     "style-loader": "^2.0.0",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0",
